@@ -97,7 +97,6 @@ void servoMoveToInputValueFromSerialMonitor() {
 
 
 
-
 void setup() {
   servo1.attach(5); // attach servo
   // servo2.attach(6);
@@ -125,7 +124,8 @@ void loop() {
 
 
   // smooth servo movement between angle 0 to 100
-  // repeatedlyMovingBetweenTwoPoint(0, 100);
+  // repeatedlyMovingBetweenTwoPoint(70, 100);
+  // smoothMoveFromAToB(120, 120);
 
   // smoothMoveWithPotentiometer();
 
